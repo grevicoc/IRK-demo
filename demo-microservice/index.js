@@ -13,7 +13,7 @@ app.post('/add', (req, res) => {
     })
 })
 
-app.get('/minus', (req, res) => {
+app.post('/minus', (req, res) => {
     res.send({
         code: 200,
         status: "OK",
