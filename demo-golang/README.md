@@ -5,7 +5,7 @@ Go Modules:
 
 Go Package:
 1. Konsep package mirip di java, 1 package berarti saling bisa akses walaupun beda file (calculation.go dengan print.go)
-2. Beda package perlu import dulu kalo mau akses (calculation.go dengan add.go)
+2. Beda package perlu import dulu kalo mau akses (calculation.go dengan add.go). Perhatiin agar bisa diakses beda package gunain kapital di depan method/variable
 3. package main selalu jadi semacam package utama untuk dijalankan
 
 Latar belakang Go:
